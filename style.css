@@ -1,0 +1,112 @@
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: linear-gradient(to bottom, #6b3e26, #d4af37); /* Warm brown to gold gradient */
+    color: #3b2d1f;
+}
+
+.content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 245, 230, 0.9); /* Soft parchment-like color */
+    border-radius: 15px;
+    margin: 20px;
+}
+
+header {
+    background: #8b5e3c; /* Warm earthy brown */
+    color: #f8e4c3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8e4c3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    background: rgba(255, 245, 230, 0.9);
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+}
+
+h1, h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #8b5e3c;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+
+.gallery-container img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid #8b5e3c;
+}
+
+#donate {
+    background: #d4af37; /* Gold background */
+    color: #3b2d1f; /* Dark brown text */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.donate-button {
+    display: inline-block;
+    background: #8b5e3c; /* Warm brown */
+    color: #f8e4c3; /* Light parchment text */
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.donate-button:hover {
+    background: #6b3e26; /* Darker brown */
+}
+
+footer {
+    background: #8b5e3c;
+    color: #f8e4c3;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+footer a {
+    color: #f8e4c3;
+    text-decoration: none;
+}
